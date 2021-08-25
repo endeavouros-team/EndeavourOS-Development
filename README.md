@@ -9,13 +9,13 @@ Using calamares installer framework to get an Archbased system installed.
 
 we do use the same base as Archlinux itself is using for the ISO, but we implement a live Desktop session with XFCE 4 starting on Arch-ISO boot.
 
-The XFCE4 live session is a fully working Desktop with all you need, Firefox Browser, Filebrowser, Mediaplayer, and extra many tools for system-tasks.
+The XFCE4 live session is a fully working Desktop with all you need, Firefox Browser, Filebrowser, Mediaplayer, and extra many tools for system tasks.
 
 We do use our welcome-app to start the graphical installer [Calamares](https://calamares.io/) where you can read the latest release Info and get knowledge around EndeavourOS at all.
 
 You can start gparted partition manager, and a selection of rescue tools, you can choose between offline install (Default XFCE4 Desktop themed and configured) or netinstall where you can choose the Desktop-Environment you want to install, what will perform an installation directly loading everything fresh from the internet.
 
-In addition welcome has also a installer starter for community editions maintained and developed by community members:
+In addition, welcome has also an installer starter for community editions maintained and developed by community members:
 [EndeavourOS-Community-Editions](https://github.com/EndeavourOS-Community-Editions)
 
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/2021-08-25_11-24.png)
@@ -49,7 +49,7 @@ This method does not need an internet connection at all.
 
 ## Netinstall:
 
-Netinstall method let you choose your Desktop environment to install and have options to install printing support or Accessibility Tools, it is possible to remove also single packages from the list.
+Netinstall method lets you choose your Desktop environment to install and have options to install printing support or Accessibility Tools, it is possible to remove also single packages from the list.
 
 packages used for this are simply a list (written in YAML) you can find here:
 
@@ -66,12 +66,12 @@ XFCE4 and i3 have unselectable groups for the EndeavourOS theming.
 
 [Calamares](https://calamares.io/)
 
-We do use the latest calamares sources for our install. Most modules are taking as they are and only configured to work for EnOS install (Archlinux) others are created on our own like the pacstrap module used for netinstall.
+We do use the latest calamares sources for our install. Most modules are taking as they are and only configured to work for EndeavourOS install (Archlinux) others are created on our own like the pacstrap module used for netinstall.
 
 [EndeavourOS Calamares Modules](https://github.com/endeavouros-team/Calamares_current)
 
 Also, both online and offline install using the same calamares.
-We do use welcome app and different settings.conf files to schedule the both installl methoids and handling Community Editions.
+We do use welcome app and different settings.conf files to schedule both install methods and handling Community Editions.
 
 ## Dependencies:
 
