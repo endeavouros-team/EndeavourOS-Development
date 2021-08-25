@@ -73,6 +73,10 @@ We do use the latest calamares sources for our install. Most modules are taking 
 Also, both online and offline install using the same calamares.
 We do use welcome app and different settings.conf files to schedule both install methods and handling Community Editions.
 
+We do develop and maintain branding and configurations for calamares here:
+
+[EndeavourOS Calamares Configuration](https://github.com/endeavouros-team/calamares_config_next)
+
 ## Dependencies:
 
 [Calamares Dependencies](https://github.com/calamares/calamares/blob/master/README.md)
