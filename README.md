@@ -18,7 +18,7 @@ You can start gparted partition manager, and a selection of rescue tools, you ca
 In addition welcome has also a installer starter for community editions maintained and developed by community members:
 [EndeavourOS-Community-Editions](https://github.com/EndeavourOS-Community-Editions)
 
-![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-iso-next/main/docs/images/2021-08-25_11-24.png)
+![alt text](https://raw.githubusercontent.com/endeavouros-team/GitHub-page/main/images/2021-08-25_11-24.png)
 
 
 **All that is needed to build the ISO is available here:**
@@ -39,7 +39,7 @@ Our magic cleaner_scripts doing some magic we need to get all working as we want
 [cleaner_script.sh](https://github.com/endeavouros-team/install-scripts/blob/master/cleaner_script.sh)
 [chrooted_cleaner_script.sh](https://github.com/endeavouros-team/install-scripts/blob/master/chrooted_cleaner_script.sh)
 
-![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-iso-next/main/docs/images/2021-08-25_11-50.png)
+![alt text](https://raw.githubusercontent.com/endeavouros-team/GitHub-page/main/images/2021-08-25_11-50.png)
 
 ## Offline install:
 
@@ -59,7 +59,7 @@ This method needs a working internet connection to proceed and will install the 
 
 XFCE4 and i3 have unselectable groups for the EndeavourOS theming.
 
-![alt text](https://github.com/endeavouros-team/EndeavourOS-iso-next/blob/main/docs/images/2021-08-25_11-28.png)
+![alt text](https://raw.githubusercontent.com/endeavouros-team/GitHub-page/main/images/2021-08-25_11-28.png)
 
 ## Calamares:
 [Calamares](https://calamares.io/)
