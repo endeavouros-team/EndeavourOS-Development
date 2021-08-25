@@ -62,6 +62,7 @@ XFCE4 and i3 have unselectable groups for the EndeavourOS theming.
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/GitHub-page/main/images/2021-08-25_11-28.png)
 
 ## Calamares:
+![squid](https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png)
 [Calamares](https://calamares.io/)
 
 We do use the latest calamares sources for our install. Most modules are taking as they are and only configured to work for EnOS install (Archlinux) others are created on our own like the pacstrap module used for netinstall.
