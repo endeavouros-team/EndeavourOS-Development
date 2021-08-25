@@ -27,7 +27,7 @@ In addition welcome has also a installer starter for community editions maintain
 
 Packages used for the squashfs-image and the Live-Session:
 
-[run_before_squashfs.sh](https://github.com/endeavouros-team/EndeavourOS-iso-next/blob/master/packages.x86_64)
+[packages.x86_64](https://github.com/endeavouros-team/EndeavourOS-iso-next/blob/master/packages.x86_64)
 
 Changes we need to implement to the squashfs-image are made with this:
 
