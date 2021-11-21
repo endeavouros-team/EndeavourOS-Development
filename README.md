@@ -23,21 +23,21 @@ In addition, welcome has also an installer starter for community editions mainta
 
 **All that is needed to build the ISO is available here:**
 
-[EndeavourOS-iso-next](https://github.com/endeavouros-team/EndeavourOS-iso-next)
+[EndeavourOS-ISO](https://github.com/endeavouros-team/EndeavourOS-ISO)
 
 Packages used for the squashfs-image and the Live-Session:
 
-[packages.x86_64](https://github.com/endeavouros-team/EndeavourOS-iso-next/blob/master/packages.x86_64)
+[packages.x86_64](https://github.com/endeavouros-team/EndeavourOS-ISO/blob/main/packages.x86_64)
 
 Changes we need to implement to the squashfs-image are made with this:
 
-[run_before_squashfs.sh](https://github.com/endeavouros-team/EndeavourOS-iso-next/blob/master/run_before_squashfs.sh)
+[run_before_squashfs.sh](https://github.com/endeavouros-team/EndeavourOS-ISO/blob/main/run_before_squashfs.sh)
 
 
 Our magic cleaner_scripts doing some magic we need to get all working as we want:
 
-[cleaner_script.sh](https://github.com/endeavouros-team/install-scripts/blob/master/cleaner_script.sh)
-[chrooted_cleaner_script.sh](https://github.com/endeavouros-team/install-scripts/blob/master/chrooted_cleaner_script.sh)
+[cleaner_script.sh](https://github.com/endeavouros-team/EndeavourOS-calamares/blob/main/calamares/scripts/cleaner_script.sh)
+[chrooted_cleaner_script.sh](https://github.com/endeavouros-team/EndeavourOS-calamares/blob/main/calamares/scripts/chrooted_cleaner_script.sh)
 
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/2021-08-25_11-50.png)
 
@@ -66,16 +66,12 @@ XFCE4 and i3 have unselectable groups for the EndeavourOS theming.
 
 [Calamares](https://calamares.io/)
 
-We do use the latest calamares sources for our install. Most modules are taking as they are and only configured to work for EndeavourOS install (Archlinux) others are created on our own like the pacstrap module used for netinstall.
+We do use the latest calamares sources for our install. Most modules are taking as they are and only configured to work for EndeavourOS install (Archlinux) others are created on our own like the pacstrap module used for the online install option.
 
-[EndeavourOS Calamares Modules](https://github.com/endeavouros-team/Calamares_current)
+[EndeavourOS Calamares scripts and configurtation](https://github.com/endeavouros-team/EndeavourOS-calamares)
 
-Also, both online and offline install using the same calamares.
+Also, both online and offline install using the same calamares application.
 We do use welcome app and different settings.conf files to schedule both install methods and handling Community Editions.
-
-We do develop and maintain branding and configurations for calamares here:
-
-[EndeavourOS Calamares Configuration](https://github.com/endeavouros-team/calamares_config_next)
 
 ## Dependencies:
 
