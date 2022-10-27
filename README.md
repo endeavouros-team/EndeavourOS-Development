@@ -41,6 +41,22 @@ Our magic cleaner_scripts doing some magic we need to get all working as we want
 
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/2021-08-25_11-50.png)
 
+The EndeavourOS installer setup differs in one Major way too most other Distros using Calamares and this is the online installer setup.
+As it is not using the ISO image at all and installs the system fresh from scratch.
+
+Install happens in stages:
+
+1. online install
+    a. pacstrap installs base system
+    b. user select DE and can opt out packages, and basic Desktop packages getting added too that creates a list of packages getting installed in second stage.
+    c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
+
+2. offline install:
+    a. the same system image used to load the ISO live-environment Desktop will get copied over to target.
+    b. packages only needed on the live session and install process getting removed from target.
+    c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
+
+
 ## Offline install:
 
 offline install uses the same squashfs image used for the Live-Session of the ISO to copy the system to your HD, then removing unneeded apps, and configure user and boot process, after calamares is partitioning the disk.
