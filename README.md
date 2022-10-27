@@ -67,7 +67,7 @@ This method does not need an internet connection at all.
     b. user select DE and can opt out packages, and basic Desktop packages getting added too that creates a list of packages getting installed in second stage.
     
     c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
-Netinstall method lets you choose your Desktop environment to install and have options to install printing support or Accessibility Tools, it is possible to remove also single packages from the list.
+Online method lets you choose your Desktop environment to install and have options to install printing support or Accessibility Tools, it is possible to remove also single packages from the list.
 
 packages used for this are simply a list (written in YAML) you can find here:
 
