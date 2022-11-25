@@ -75,7 +75,7 @@ packages used for this are simply a list (written in YAML) you can find here:
 
 This method needs a working internet connection to proceed and will install the chosen DE „vanilla“ (no theming and configuration on the DE itself) as it would do on Archlinux itself. But with a minimal selection of packages to get a base Desktop to start making it your own.
 
-XFCE4 has unselectable groups for the EndeavourOS theming toi be able to install it without our theming.
+XFCE4 has de-selectable groups for the EndeavourOS theming to be able to install it without our theming.
 
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/2021-08-25_11-28.png)
 
