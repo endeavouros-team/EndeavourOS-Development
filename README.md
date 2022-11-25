@@ -86,7 +86,7 @@ XFCE4 has unselectable groups for the EndeavourOS theming toi be able to install
 
 We do use the latest calamares sources for our install. Most modules are taking as they are and only configured to work for EndeavourOS install (Archlinux) others are created on our own like the pacstrap module used for the online install option.
 
-[EndeavourOS Calamares scripts and configurtation](https://github.com/endeavouros-team/EndeavourOS-calamares)
+[EndeavourOS Calamares scripts and configuration](https://github.com/endeavouros-team/EndeavourOS-calamares)
 
 Also, both online and offline install using the same calamares application.
 We do use welcome app and different settings.conf files to schedule both install methods and handling Community Editions.
