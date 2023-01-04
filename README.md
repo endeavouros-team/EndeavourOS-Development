@@ -79,6 +79,10 @@ XFCE4 has de-selectable groups for the EndeavourOS theming to be able to install
 
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/2021-08-25_11-28.png)
 
+Other DEs are only fixed to work properly per default:
+
+https://github.com/endeavouros-team/endeavouros-DE-fixes
+
 ## Calamares:
 ![squid](https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png)
 
