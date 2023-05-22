@@ -97,6 +97,6 @@ We do use welcome app and different settings.conf files to schedule both install
 
 ## Dependencies:
 
-[Calamares Dependencies](https://github.com/calamares/calamares/blob/master/README.md)
+[Calamares Dependencies](https://github.com/endeavouros-team/calamares#readme)
 
 
