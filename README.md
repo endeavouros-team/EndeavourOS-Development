@@ -6,7 +6,7 @@ EndeavourOS is mainly developing a bootable Live-ISO.
 Using calamares installer framework to get an Archbased system installed.
 
 
-**Based on Arch-ISO:**
+**EndeavourOS ISO Features:**
 
 we do use the same base as Archlinux itself is using for the ISO, but we implement a live Desktop session with KDE starting on Arch-ISO boot.
 
