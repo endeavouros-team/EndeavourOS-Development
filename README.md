@@ -33,6 +33,7 @@ Changes we need to implement to the squashfs-image are made with this:
 Our magic cleaner_scripts doing some magic we need to get all working as we want:
 
 [cleaner_script.sh](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/scripts/cleaner_script.sh)
+
 [chrooted_cleaner_script.sh](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/scripts/chrooted_cleaner_script.sh)
 
 ![calamares installer](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/online-offline-welcome-kde-galileo.png)
