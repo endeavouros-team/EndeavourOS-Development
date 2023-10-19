@@ -76,7 +76,7 @@ The choosen DE (Desktop Environment) has deselectable groups for the EndeavourOS
 
 DEs are only fixed to work properly per default mainly and we added minimal changes to icons and theming in cases:
 
-https://github.com/endeavouros-team/endeavouros-DE-fixes
+[endeavouros-DE-fixes](https://github.com/endeavouros-team/endeavouros-DE-fixes)
 
 ## Calamares:
 ![squid](https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png)
