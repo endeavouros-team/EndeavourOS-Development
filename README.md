@@ -66,7 +66,7 @@ This method does not need an internet connection at all.
     c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
 Online method lets you choose your Desktop environment to install and have options to install printing support or Accessibility Tools, it is possible to remove also single packages from the list.
 
-[install-scripts](https://github.com/endeavouros-team/EndeavourOS-calamares/blob/main/calamares/scripts/)
+[install-scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/scripts)
 
 This method needs a working internet connection to proceed and will install the chosen DE „vanilla“ (no theming and configuration on the DE itself) as it would do on Archlinux itself. But with a minimal selection of packages to get a base Desktop to start making it your own.
 
