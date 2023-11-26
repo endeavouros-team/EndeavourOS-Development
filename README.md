@@ -8,8 +8,7 @@ Using calamares installer framework to get an Archbased Desktop installed.
 ## Contribute to Development
 
 We do welcome any contribution, be it only correcting a typo or providing fixes for used code, making siuggestions, reporting issues you find.<br>
-And indeed simple start doing a pull request, if you start contributing over a longer period,<br>
-may want to join the team to provide constant help and join development of new ideas and chnages for EndeavourOS, we can discuss changing your permissions.<br>
+And indeed simple start doing a pull request, if you start contributing over a longer period, you may want to join the team to provide constant help and join development of new ideas and changes for EndeavourOS?, we can discuss changing your permissions.<br>
 
 **Translations:**
 
