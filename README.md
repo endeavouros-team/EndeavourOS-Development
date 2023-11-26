@@ -1,6 +1,6 @@
 ![icon](https://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/b53c4b90276e77d530785cb60d33c6bc3cc02f45/icons/endeavour-logo-sans-logotype.svg)
 
-## [https://endeavouros.com](https://endeavouros.com)
+## [EndeavourOS](https://endeavouros.com)
 
 ## EndeavourOS installer
 
