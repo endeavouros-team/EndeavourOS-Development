@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/master/endeavouros-icon.png)
+![banner](https://raw.githubusercontent.com/endeavouros-team/endeavouros-theming/master/endeavouros-logo-text.svg)
 
 [https://endeavouros.com](https://endeavouros.com)
 
