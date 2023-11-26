@@ -1,4 +1,4 @@
-![icon](ttps://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/master/icons/endeavouros-icon.png)
+![icon](https://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/master/icons/endeavouros-icon.png)
 
 ## [https://endeavouros.com](https://endeavouros.com)
 
