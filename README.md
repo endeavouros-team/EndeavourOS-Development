@@ -14,15 +14,15 @@ may want to join the team to provide constant help and join development of new i
 **Translations:**
 
 For Calamares Modules and Information shown in install process:
-https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt
+[Calamares Translations](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt)
 
 For EndeavourOS Applciations (welcome per example):
-https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-translations
+[EndeavourOS Apps translations](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-translations)
 
 **Installer (Calamares):**
 Start having a look at the code and information on the calamares Repository (we do use a forked version):
 
-https://github.com/endeavouros-team/calamares
+[Calamares Installer](https://github.com/endeavouros-team/calamares)
 
 **ISO build Framework:**
 A hugely modified version of the original Archiso:
@@ -32,7 +32,7 @@ https://github.com/endeavouros-team/EndeavourOS-ISO
 **EndeavourOS Applications:**
 Have have a look at the repositories:
 
-https://github.com/orgs/endeavouros-team/repositories
+[EndeavourOS Code Repositories](https://github.com/orgs/endeavouros-team/repositories)
 
 
 **EndeavourOS ISO Features:**
