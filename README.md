@@ -74,11 +74,11 @@ Install happens in stages:
 
 **offline install:**
 
-    a. the same system image used to load the ISO live-environment Desktop will get copied over to target.
+a. the same system image used to load the ISO live-environment Desktop will get copied over to target.
     
-    b. packages only needed on the live session and install process getting removed from target.
+b. packages only needed on the live session and install process getting removed from target.
     
-    c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
+c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
     
 offline install uses the same squashfs image used for the Live-Session of the ISO to copy the system to your HD, then removing unneeded apps, and configure user and boot process, after calamares is partitioning the disk.
 
@@ -88,11 +88,11 @@ This method does not need an internet connection at all.
 
 **online install**
 
-    a. pacstrap installs base system
+a. pacstrap installs base system
     
-    b. user select DE and can opt out packages, and basic Desktop packages getting added too that creates a list of packages getting installed in second stage.
+b. user select DE and can opt out packages, and basic Desktop packages getting added too that creates a list of packages getting installed in second stage.
     
-    c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
+c. after install is finished, we detect hardware used and I decides to remove unneeded driver and virtual machine packages.
 Online method lets you choose your Desktop environment to install and have options to install printing support or Accessibility Tools, it is possible to remove also single packages from the list.
 
 [install-scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/scripts)
