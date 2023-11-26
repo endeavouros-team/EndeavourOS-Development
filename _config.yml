@@ -1,7 +1,8 @@
-#theme: jekyll-theme-cayman
 title: EndeavourOS Development
 logo: https://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/master/endeavouros-icon.png
 description: information about EndeavourOS Development.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+
+#theme: jekyll-theme-cayman
