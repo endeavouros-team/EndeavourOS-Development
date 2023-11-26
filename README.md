@@ -5,7 +5,7 @@
 ## EndeavourOS installer
 
 EndeavourOS is mainly developing a bootable Live-ISO.
-Using calamares installer framework to get an Archbased system installed.
+Using calamares installer framework to get an Archbased Desktop installed.
 
 ## Contribute to Development
 
