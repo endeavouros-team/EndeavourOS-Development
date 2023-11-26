@@ -4,5 +4,7 @@ description: information about EndeavourOS Development.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
-
+github:
+  owner_url: https://endeavouros.com
+  repository_url: https://github.com/endeavouros-team
 #theme: jekyll-theme-cayman
