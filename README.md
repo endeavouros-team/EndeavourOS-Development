@@ -5,6 +5,35 @@
 EndeavourOS is mainly developing a bootable Live-ISO.
 Using calamares installer framework to get an Archbased system installed.
 
+## Contribute to Development
+
+We do welcome any contribution, be it only correcting a typo or providing fixes for used code, making siuggestions, reporting issues you find.<br>
+And indeed simple start doing a pull request, if you start contributing over a longer period,<br>
+may want to join the team to provide constant help and join development of new ideas and chnages for EndeavourOS, we can discuss changing your permissions.<br>
+
+**Translations:**
+
+For Calamares Modules and Information shown in install process:
+https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt
+
+For EndeavourOS Applciations (welcome per example):
+https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-translations
+
+**Installer (Calamares):**
+Start having a look at the code and information on the calamares Repository (we do use a forked version):
+
+https://github.com/endeavouros-team/calamares
+
+**ISO build Framework:**
+A hugely modified version of the original Archiso:
+
+https://github.com/endeavouros-team/EndeavourOS-ISO
+
+**EndeavourOS Applications:**
+Have have a look at the repositories:
+
+https://github.com/orgs/endeavouros-team/repositories
+
 
 **EndeavourOS ISO Features:**
 
