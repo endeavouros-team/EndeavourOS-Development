@@ -1,5 +1,6 @@
 ![alt text](https://raw.githubusercontent.com/endeavouros-team/artwork-images-logo/master/endeavouros-icon.png)
-[Main Website](https://endeavouros.com)
+
+[https://endeavouros.com](https://endeavouros.com)
 
 ## EndeavourOS installer
 
