@@ -113,12 +113,12 @@ DEs are only fixed to work properly per default mainly and we added minimal chan
  
 [Calamares](https://calamares.io/)
 
-We do use the our own fork of calamares sources for our install. Some modules are taking as they are and only configured to work for EndeavourOS install (Archlinux) others are created on our own like the pacstrap module used for the online install option. And some are modified to fit into what we need to setup for EndeavourOS. 
+We do use our own fork of calamares. Some modules are taken as they are and only configured to work for EndeavourOS install, others are created on our own, like the pacstrap module used for the online install option. And some are modified to fit into what we need to setup EndeavourOS. 
 
 [EndeavourOS Calamares scripts and configuration](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos)
 
 Also, both online and offline install using the same calamares application.
-We do use welcome app and different settings.conf files to schedule both install methods.
+We do use welcome app and different settings.conf files set both install methods.
 
 ## Dependencies:
 
