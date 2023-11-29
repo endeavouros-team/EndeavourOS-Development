@@ -109,7 +109,7 @@ DEs are only fixed to work properly per default mainly and we added minimal chan
 [endeavouros-DE-fixes](https://github.com/endeavouros-team/endeavouros-DE-fixes)
 
 ## Calamares:
-![squid](https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png)
+![squid](https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png =150x)
 
 [Calamares](https://calamares.io/)
 
