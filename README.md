@@ -109,8 +109,8 @@ DEs are only fixed to work properly per default mainly and we added minimal chan
 [endeavouros-DE-fixes](https://github.com/endeavouros-team/endeavouros-DE-fixes)
 
 ## Calamares:
-![squid](https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png =150x)
-
+ <img src="https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png" width="150" height="150">
+ 
 [Calamares](https://calamares.io/)
 
 We do use the our own fork of calamares sources for our install. Some modules are taking as they are and only configured to work for EndeavourOS install (Archlinux) others are created on our own like the pacstrap module used for the online install option. And some are modified to fit into what we need to setup for EndeavourOS. 
