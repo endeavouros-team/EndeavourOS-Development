@@ -112,7 +112,9 @@ DEs are only fixed to work properly per default mainly and we added minimal chan
 1. You can select between systemd-boot (default selected option) Grub or in addition to not install any bootloader in case you are using your own.
 2. Automatic Partition option with presets, or manual partioning where it is up to the user to select how to setup and mount partitions.
    In this case you have to set ESP mount to /efi if you select systemd-boot and /boot/efi in case you are using grub as the bootloader.
-![bootloader](https://github.com/endeavouros-team/EndeavourOS-Development/assets/16797647/f46345a9-88d0-4e5e-a841-63f4bf6116b8)
+
+![bootloader](https://github.com/endeavouros-team/EndeavourOS-Development/assets/16797647/120fc78b-4dfb-44a9-8fba-6ca064b87f57)
+
 
 
 ## Calamares:
