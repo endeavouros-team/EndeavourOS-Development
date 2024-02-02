@@ -108,6 +108,11 @@ DEs are only fixed to work properly per default mainly and we added minimal chan
 
 [endeavouros-DE-fixes](https://github.com/endeavouros-team/endeavouros-DE-fixes)
 
+**installer options**
+1. You can select between systemd-boot (default selected option) Grub or in addition to not install any bootloader in case you are using your own.
+2. Automatic Partition option with presets, or manual partioning where it is up to the user to select how to setup and mount partitions.
+   In this case you have to set ESP mount to /efi if you select systemd-boot and /boot/efi in case you are using grub as the bootloader.
+
 ## Calamares:
  <img src="https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png" width="150" height="150">
  
