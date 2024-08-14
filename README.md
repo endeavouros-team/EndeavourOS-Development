@@ -17,7 +17,7 @@ And indeed simple start doing a pull request, if you start contributing over a l
 For Calamares Modules and Information shown in install process:
 [Calamares Translations](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt)
 
-For EndeavourOS Applciations (welcome per example):
+For EndeavourOS Applications (welcome per example):
 [EndeavourOS Apps translations](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-translations)
 
 **Installer (Calamares):**
