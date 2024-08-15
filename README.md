@@ -11,6 +11,7 @@ We welcome any contribution! Whether it's just a simple typo correction, providi
 If you continue contributing over time, consider joining the team to help with the ongoing development of new ideas and changes for EndeavourOS. Let us know, and we can discuss adjusting your permissions to allow you to do so.
 
 **Translations:**
+
 For Calamares modules and information shown in install process:
 [Calamares Translations](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt)
 
