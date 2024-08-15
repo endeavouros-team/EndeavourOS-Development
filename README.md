@@ -42,7 +42,7 @@ The KDE live session provides a fully functional desktop enviroment with everyth
 
 We use our Welcome app to start the graphical installer, [Calamares](https://calamares.io/), where you can read the latest release information and learn more about EndeavourOS.
 
-You can start the KDE Partition Manager (KPMcore) and a selection of rescue tools. You can choose between offline install, which installs the same KDE Desktop as the live session, or a netinstall, where you can select the desktop environment you want. The netinstall option will perform an installation by downloading everything fresh from the internet. <!-- Reword -->
+You can start the KDE Partition Manager (KPMcore) and a selection of rescue tools. You can choose between offline install, which installs the same KDE Desktop as the live session, or a netinstall, where you can select the desktop environment you want. The netinstall option will perform an installation by downloading everything fresh from the internet.
 ![calamares installer kde galileo](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/livesession-kde-galileo.png)
 
 **Everything needed to build the ISO is available here:**
@@ -72,7 +72,7 @@ Install happens in stages:
 
 **Offline Install:**
 
-* The same system image used to load the ISO live environment Desktop will be copied to the target. <!-- check -->
+* The same system image used to load the ISO live environment Desktop will be copied to the target.
     
 * Packages that are only needed for the live session and installation process are removed from the target.
     
