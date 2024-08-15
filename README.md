@@ -81,7 +81,7 @@ The offline install uses the same squashfs image from the live session of the IS
 
 This method does not require an internet connection.
 
-**Online Install**
+**Online Install:**
 
 * Pacstrap installs the base system.
     
