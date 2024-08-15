@@ -2,49 +2,48 @@
 
 ## [EndeavourOS](https://endeavouros.com)
 
-## EndeavourOS installer
-
-EndeavourOS is mainly developing a bootable Live-ISO.
-Using calamares installer framework to get an Archbased Desktop installed.
+## EndeavourOS Installer 
+EndeavourOS allows you to create a bootable Live ISO using the Calamares Installer Framework to install an Arch-based desktop.
 
 ## Contribute to Development
 
-We do welcome any contribution, be it only correcting a typo or providing fixes for used code, making suggestions, reporting issues you find.<br>
-And indeed simple start doing a pull request, if you start contributing over a longer period, you may want to join the team to provide constant help and join development of new ideas and changes for EndeavourOS? we can discuss changing your permissions.<br>
+We welcome any contribution! Whether it's just a simple typo correction, providing fixes for used code, making suggestions, or reporting issues you find, simply start a pull request.
+
+If you're interested in contributing over a longer period, consider joining the team to assist with the ongoing development of new ideas and changes for EndeavourOS. If this appeals to you, please get in touch, and we can discuss adjusting your permissions to allow you to do so. <!-- Reword this part -->
 
 **Translations:**
-
+<!-- Check for caps -->
 For Calamares Modules and Information shown in install process:
-[Calamares Translations](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt)
+[Calamares translations](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt)
 
-For EndeavourOS Applciations (welcome per example):
+For EndeavourOS Applications (e.g., Welcome):
 [EndeavourOS Apps translations](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-translations)
 
 **Installer (Calamares):**
-Start having a look at the code and information on the calamares Repository (we do use a forked version):
+Start having a look at the code and information on the Calamares repository (note that we use a forked version):
 
 [Calamares Installer](https://github.com/endeavouros-team/calamares)
 
-**ISO build Framework:**
-A hugely modified version of the original Archiso:
+**ISO Build Framework:**
+A significantly modified version of the original Archiso:
 
 https://github.com/endeavouros-team/EndeavourOS-ISO
 
 **EndeavourOS Applications:**
-Have have a look at the repositories:
+Have a look at the repositories:
 
 [EndeavourOS Code Repositories](https://github.com/orgs/endeavouros-team/repositories)
 
 
 **EndeavourOS ISO Features:**
 
-we do use the same base as Archlinux itself is using for the ISO, but we implement a live Desktop session with KDE starting on Arch-ISO boot.
+We use the same base as Arch Linux for the ISO, but we implement a live desktop session with KDE that starts upon booting the Arch ISO.
 
-The KDE live session is a fully working Desktop with all you need, Firefox Browser, Filebrowser, Mediaplayer, and extra many tools for system tasks.
+The KDE live session provides a fully functional desktop enviroment with everything you need, including Firefox, a file manager, a media player, and various of other tools for system tasks.
 
-We do use our welcome-app to start the graphical installer [Calamares](https://calamares.io/) where you can read the latest release Info and get knowledge around EndeavourOS at all.
+We use our Welcome app to start the graphical installer, [Calamares](https://calamares.io/), where you can read the latest release information and learn more about EndeavourOS.
 
-You can start gparted partition manager, and a selection of rescue tools, you can choose between offline install (only the same as the LiveSession: KDE Desktop) or netinstall where you can choose the Desktop-Environment you want to install, what will perform an installation directly loading everything fresh from the internet.
+You can start the GParted partition manager, and a selection of rescue tools. You can choose between offline install (which installs the same KDE Desktop as the Live session) or a netinstall, where you can select the desktop enviroment you want. The netinstall option will perform an installation by downloading everything fresh from the internet. <!-- Reword -->
 ![calamares installer kde galileo](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/livesession-kde-galileo.png)
 
 **All that is needed to build the ISO is available here:**
@@ -68,7 +67,7 @@ Our magic cleaner_scripts doing some magic we need to get all working as we want
 
 ![calamares installer](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/online-offline-welcome-kde-galileo.png)
 
-The EndeavourOS installer setup differs in one Major way too most other Distros using Calamares and this is the online installer setup.
+The EndeavourOS installer setup differs in one major way to most other distros using Calamares and this is the online installer setup.
 As it is not using the ISO image at all and installs the system fresh from scratch.
 
 Install happens in stages:
