@@ -31,11 +31,6 @@ Begin by taking a look at the code and information on the Calamares repository (
 A significantly modified version of the original Archiso:
 [EndeavourOS ISO](https://github.com/endeavouros-team/EndeavourOS-ISO)
 
-**EndeavourOS Applications:**
-
-Take a look at the repositories:
-[EndeavourOS Code Repositories](https://github.com/orgs/endeavouros-team/repositories)
-
 **EndeavourOS ISO Features:**
 
 We use the same base as Arch Linux for the ISO, but we implement a live desktop session with KDE Plasma that starts upon booting the Arch ISO.
@@ -46,6 +41,21 @@ We use our Welcome app to start the graphical installer, [Calamares](https://cal
 
 You can start GParted, KDE Partition Manager (KPMcore) and a selection of rescue tools. You can choose between offline install, which installs the same KDE Plasma Desktop as the live session, or a netinstall, where you can select the desktop environment you want. The netinstall option will perform an installation by downloading everything fresh from the internet.
 ![calamares installer kde galileo](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/livesession-kde-galileo.png)
+
+**EndeavourOS Applications:**
+Our own development on little helper tools to make mainztaining the system easier.
+
+Take a look at the repositories:
+[EndeavourOS Code Repositories](https://github.com/orgs/endeavouros-team/repositories)
+Or use eos-app-info tool to learn more about available apps and what they do for you.
+
+**What make EndeavourOS different (uneven) to Archlinux?**
+* Most signifiocant is that we use dracut instead of mkinitcpio:
+https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut
+* We do provide a basic Desktop-Gui installer that makes it very easy to setup a basic Desktop OS based on original Archlinux packages, ready to get finished to fit your personal needs.
+* Desktops come with a selected set of packages to provide a basic fully working Desktop, we doonly change little look and feel of the Desktops like accent colors iconset.
+   But all changes are very minimal and basic, theres is no optimization or rebuilded packages in general.
+* EndeavourOS is not handholding or providing a second protecting safety net, it is open for all your changes, good and bad, you need to get used to the terminal to be able to apply needed tasks and interventions. 
 
 **Everything needed to build the ISO is available here:**
 
