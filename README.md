@@ -22,6 +22,10 @@ EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework
 
 - **No Handholding**  
   EndeavourOS does not aim to be a beginner-proof or overly guided distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively.
+  We focus on providing easy-to-understand tutorials at [discovery.endeavouros.com](https://discovery.endeavouros.com).  
+  At the core of EndeavourOS is our community — a place where users help each other in an open-minded and friendly way.  
+  Join us on the [EndeavourOS Forum](https://forum.endeavouros.com) or in the [Telegram Help Chat](https://t.me/Endeavouros) to ask questions, share knowledge, and connect with others.
+
 
 - **EndeavourOS Applications**  
   We develop small helper tools to simplify system maintenance. Explore them using the `eos-app-info` tool or browse our [code repositories](https://github.com/endeavouros-team).
