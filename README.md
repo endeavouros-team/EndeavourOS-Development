@@ -9,18 +9,23 @@
 EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework to install an Arch-based desktop.
 
 
-**What you have to keep in mind when using EndeavourOS?**
-* Most significant is that we use dracut instead of mkinitcpio:
-https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut
-* We do provide a basic Desktop-Gui installer that makes it very easy to setup a basic Desktop OS based on original Archlinux packages, ready to get finished to fit your personal needs.
-* Desktops come with a selected set of packages to provide a basic fully working Desktop, we doonly change little look and feel of the Desktops like accent colors iconset.
-   But all changes are very minimal and basic, theres is no optimization or rebuilded packages in general.
-* EndeavourOS is not handholding or providing a second protecting safety net, it is open for all your changes, good and bad, you need to get used to the terminal to be able to apply needed tasks and interventions.
-* **EndeavourOS Applications:**
-   Our own development on little helper tools to make maintaining the system easier.
-   Take a look at the repositories:
-   [EndeavourOS Code Repositories](https://github.com/orgs/endeavouros-team/repositories)
-   Or use eos-app-info tool to learn more about available apps and what they do for you.
+# What to Keep in Mind When Using EndeavourOS
+
+- **Dracut over mkinitcpio**  
+  EndeavourOS uses [dracut](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut) instead of `mkinitcpio` for initramfs generation. This is one of the most important differences to be aware of.
+
+- **Easy Installation**  
+  We provide a simple GUI-based installer that sets up a minimal yet functional desktop environment using unmodified Arch Linux packages. This gives you a solid foundation, ready to be customized to suit your personal needs.
+
+- **Minimal Customization**  
+  Our desktop environments come with a carefully selected set of packages to offer a basic, fully working system. We apply only minimal aesthetic tweaks (e.g., accent colors, icon themes). There are no major modifications, optimizations, or rebuilt packages.
+
+- **No Handholding**  
+  EndeavourOS does not aim to be a beginner-proof or overly guided distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively.
+
+- **EndeavourOS Applications**  
+  We develop small helper tools to simplify system maintenance. Explore them using the `eos-app-info` tool or browse our [code repositories](https://github.com/endeavouros-team).
+
 
 
 ## Contribute to Development
