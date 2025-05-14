@@ -49,7 +49,7 @@ Take a look at the repositories:
 [EndeavourOS Code Repositories](https://github.com/orgs/endeavouros-team/repositories)
 Or use eos-app-info tool to learn more about available apps and what they do for you.
 
-**What you have to keep in mind when using EndeavourOS as a general OS?**
+**What you have to keep in mind when using EndeavourOS?**
 * Most significant is that we use dracut instead of mkinitcpio:
 https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut
 * We do provide a basic Desktop-Gui installer that makes it very easy to setup a basic Desktop OS based on original Archlinux packages, ready to get finished to fit your personal needs.
