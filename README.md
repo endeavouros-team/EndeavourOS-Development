@@ -133,7 +133,7 @@ DEs are primiarly configured to work properly by default, with only minimal chan
 ## Calamares:
  <img src="https://raw.githubusercontent.com/calamares/calamares/calamares/src/branding/default/squid.png" width="150" height="150">
  
-[Calamares](https://calamares.io/)
+[Calamares](https://calamares.codeberg.page)
 
 We use our own fork of Calamares. Some modules are used as-is but configured to work for EndeavourOS install, while others are created on our own, like the pacstrap module used for the online install option. Additionally, some modules are modified to meet our specific requirements for setting up EndeavourOS.
 
