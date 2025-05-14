@@ -10,7 +10,6 @@ EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework
 
 
 ## What to Keep in Mind When Using EndeavourOS
-
 - **Dracut over mkinitcpio**  
   EndeavourOS uses [dracut](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut) instead of `mkinitcpio` for initramfs generation. This is one of the most important differences to be aware of.
 
