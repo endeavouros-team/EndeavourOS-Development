@@ -59,7 +59,7 @@ A significantly modified version of the original Archiso:
 
 We use the same base as Arch Linux for the ISO, but we implement a live desktop session with KDE Plasma that starts upon booting the Arch ISO.
 
-The KDE Plasma live session provides a fully functional desktop enviroment with everything you need, including Firefox, File Browser, Media Player, and various of other tools for system tasks.
+The KDE Plasma live session provides a fully functional desktop environment with everything you need, including Firefox, File Browser, Media Player, and various of other tools for system tasks.
 
 We use our Welcome app to start the graphical installer, [Calamares](https://calamares.io/), where you can read the latest release information and learn more about EndeavourOS.
 
@@ -120,7 +120,7 @@ The chosen DE includes deselectable groups for the EndeavourOS theming/fixes, al
 
 ![selector](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/eos-theme-deselect-kde-galileo.png)
 
-DEs are primiarly configured to work properly by default, with only minimal changes made to the icons and themeing in certain cases:
+DEs are primiarly configured to work properly by default, with only minimal changes made to the icons and theming in certain cases:
 
 [EndeavourOS-DE-fixes](https://github.com/endeavouros-team/endeavouros-DE-fixes)
 
