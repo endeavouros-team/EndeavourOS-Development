@@ -13,6 +13,9 @@ EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework
 
 - **Dracut over mkinitcpio**  
   EndeavourOS uses [dracut](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut) instead of `mkinitcpio` for initramfs generation. This is one of the most important differences to be aware of.
+  
+- **Bootloader freedom**
+- EndeavourOS keeps freedom to choosing bootloader. You can choose [Systemd-boot](https://wiki.archlinux.org/title/Systemd-boot), [GRUB](https://wiki.archlinux.org/title/GRUB), or even install without bootloader. It is your computer and you must choose what you want!
 
 - **Easy Installation**  
   We provide a simple GUI-based installer that sets up a minimal yet functional desktop environment using unmodified Arch Linux packages. This gives you a solid foundation, ready to be customized to suit your personal needs.
