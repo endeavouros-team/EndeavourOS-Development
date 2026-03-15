@@ -11,24 +11,19 @@ EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework
 
 **What to Keep in Mind When Using EndeavourOS**
 
-- **Dracut over mkinitcpio**  
-  EndeavourOS uses [dracut](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut) instead of `mkinitcpio` for initramfs generation. This is one of the most important differences to be aware of.
+- **Dracut over mkinitcpio** EndeavourOS uses [dracut](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut) instead of `mkinitcpio` for initramfs generation. This is one of the most important differences to be aware of.
 
-- **Easy Installation**  
-  We provide a simple GUI-based installer that sets up a minimal yet functional desktop environment using unmodified Arch Linux packages. This gives you a solid foundation, ready to be customized to suit your personal needs.
+- **Easy Installation** We provide a simple GUI-based installer that sets up a minimal yet functional desktop environment using unmodified Arch Linux packages. This gives you a solid foundation, ready to be customized to suit your personal needs.
 
-- **Minimal Customization**  
-  Our desktop environments come with a carefully selected set of packages to offer a basic, fully working system. We apply only minimal aesthetic tweaks (e.g., accent colors, icon themes). There are no major modifications, optimizations, or rebuilt packages.
+- **Minimal Customization** Our desktop environments come with a carefully selected set of packages to offer a basic, fully functional system. We apply only minimal aesthetic tweaks (e.g., accent colors, icon themes). There are no major modifications, optimizations, or rebuilt packages.
 
-- **No Handholding**  
-  EndeavourOS does not aim to be a beginner-proof or overly guided distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively.
+- **No Handholding** EndeavourOS does not aim to be a beginner-proof or overly guided distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively.  
   We focus on providing easy-to-understand tutorials at [discovery.endeavouros.com](https://discovery.endeavouros.com).  
-  At the core of EndeavourOS is our community — a place where users help each other in an open-minded and friendly way.  
+  At the core of EndeavourOS is our community—a place where users help each other in an open-minded and friendly way.  
   Join us on the [EndeavourOS Forum](https://forum.endeavouros.com) or in the [Telegram Help Chat](https://t.me/Endeavouros) to ask questions, share knowledge, and connect with others.
 
 
-- **EndeavourOS Applications**  
-  We develop small helper tools to simplify system maintenance. Explore them using the `eos-app-info` tool or browse our [code repositories](https://github.com/endeavouros-team).
+- **EndeavourOS Applications** We develop small helper tools to simplify system maintenance. Explore them using the `eos-app-info` tool or browse our [code repositories](https://github.com/endeavouros-team).
 
 
 
@@ -42,7 +37,7 @@ If you continue contributing over time, consider joining the team to help with t
 For Calamares modules and information shown during the installation process:
 [Calamares Translations](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/calamares-translations.txt)
 
-For EndeavourOS applications (e.g. Welcome):
+For EndeavourOS applications (e.g., Welcome):
 [EndeavourOS Apps Translations](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-translations)
 
 **Installer (Calamares):**
@@ -59,11 +54,11 @@ A significantly modified version of the original Archiso:
 
 We use the same base as Arch Linux for the ISO, but we implement a live desktop session with KDE Plasma that starts upon booting the Arch ISO.
 
-The KDE Plasma live session provides a fully functional desktop environment with everything you need, including Firefox, File Browser, Media Player, and various of other tools for system tasks.
+The KDE Plasma live session provides a fully functional desktop environment with everything you need, including Firefox, a file browser, a media player, and various other tools for system tasks.
 
 We use our Welcome app to start the graphical installer, [Calamares](https://calamares.io/), where you can read the latest release information and learn more about EndeavourOS.
 
-You can start GParted, KDE Partition Manager (KPMcore) and a selection of rescue tools. You can choose between offline install, which installs the same KDE Plasma Desktop as the live session, or a netinstall, where you can select the desktop environment you want. The netinstall option will perform an installation by downloading everything fresh from the internet.
+You can start GParted, KDE Partition Manager (KPMcore), and a selection of rescue tools. You can choose between an offline install, which installs the same KDE Plasma Desktop as the live session, or a netinstall, where you can select the desktop environment you want. The netinstall option will perform an installation by downloading everything fresh from the internet.
 ![calamares installer kde galileo](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/livesession-kde-galileo.png)
 
 **Everything needed to build the ISO is available here:**
@@ -78,7 +73,7 @@ Changes we need to implement to the squashfs-image are made with this:
 
 [run_before_squashfs.sh](https://github.com/endeavouros-team/EndeavourOS-ISO/blob/main/run_before_squashfs.sh)
 
-Our magic cleaner_scripts doing some magic we need to get all working as we want:
+Our magic cleaner scripts doing some magic we need to get everything working as we want:
 
 [cleaner_script.sh](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/scripts/cleaner_script.sh)
 
@@ -88,17 +83,17 @@ Our magic cleaner_scripts doing some magic we need to get all working as we want
 
 The EndeavourOS installer setup differs from most other distros using Calamares in one major way: it uses an online installer setup. Instead of relying on an ISO image, it installs the system fresh from scratch directly from the internet.
 
-Install happens in stages:
+The installation happens in stages:
 
 **Offline Install:**
 
-* The same system image used to load the ISO live-environment Desktop will be copied to the target.
+* The same system image used to load the ISO live-environment desktop will be copied to the target.
 
 * Packages that are only needed for the live session and installation process are removed from the target.
 
 * After installation is finished, the system detects the hardware used and removes any unnecessary drivers and virtual machine packages.
     
-The offline install uses the same squashfs image from the live session of the ISO to copy the system to your HD. Unneeded applications are then removed, and user and boot configurations are set up after Calamares partitions the disk.
+The offline install uses the same squashfs image from the live session of the ISO to copy the system to your drive. Unneeded applications are then removed, and user and boot configurations are set up after Calamares partitions the disk.
 
 This method does not require an internet connection.
 
@@ -106,26 +101,26 @@ This method does not require an internet connection.
 
 * Pacstrap installs the base system.
     
-* User selects the DE (Desktop Environment), opts out of certain packages, and includes basic desktop packages, creating a list of packages to be installed in the second stage.
+* The user selects the DE (Desktop Environment), opts out of certain packages, and includes basic desktop packages, creating a list of packages to be installed in the second stage.
     
 * After installation is finished, the system detects the hardware used and removes any unnecessary drivers and virtual machine packages.
 
-The online method lets you choose your Desktop environment, install printing support or accessibility tools, and remove individual packages from the list if desired.
+The online method lets you choose your desktop environment, install printing support or accessibility tools, and remove individual packages from the list if desired.
 
 [Install-scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/scripts)
 
-This method requires a working internet connection to proceed and will install the chosen DE "vanilla" (no theming and configuration on the DE itself) similar to how it would be installed on Arch Linux. But with a minimal selection of packages to get a base desktop to start making it your own.
+This method requires a working internet connection to proceed and will install the chosen DE "vanilla" (no theming or configuration on the DE itself), similar to how it would be installed on Arch Linux, but with a minimal selection of packages to get a base desktop to start making it your own.
 
 The chosen DE includes deselectable groups for the EndeavourOS theming/fixes, allowing you to install it without our changes.
 
 ![selector](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/eos-theme-deselect-kde-galileo.png)
 
-DEs are primiarly configured to work properly by default, with only minimal changes made to the icons and theming in certain cases:
+DEs are primarily configured to work properly by default, with only minimal changes made to the icons and theming in certain cases:
 
 [EndeavourOS-DE-fixes](https://github.com/endeavouros-team/endeavouros-DE-fixes)
 
 **Installer Options**
-1. You can select between systemd-boot (default selected option), GRUB, or opt not to install a bootloader if you prefer to use your own.
+1. You can select between systemd-boot (the default selected option) and GRUB, or opt not to install a bootloader if you prefer to use your own.
 2. Choose between the automatic partitioning option with presets or manual partitioning, where you can set up and mount partitions as you prefer. For manual partitioning, if you select systemd-boot, you need to set the ESP mount point to `/efi`. If you use GRUB as the bootloader, set the mount point to `/boot/efi`.
 
 ![bootloader](https://github.com/endeavouros-team/EndeavourOS-Development/assets/16797647/120fc78b-4dfb-44a9-8fba-6ca064b87f57)
@@ -135,15 +130,13 @@ DEs are primiarly configured to work properly by default, with only minimal chan
  
 [Calamares](https://calamares.codeberg.page)
 
-We use our own fork of Calamares. Some modules are used as-is but configured to work for EndeavourOS install, while others are created on our own, like the pacstrap module used for the online install option. Additionally, some modules are modified to meet our specific requirements for setting up EndeavourOS.
+We use our own fork of Calamares. Some modules are used as-is but configured to work for the EndeavourOS installation, while others are created by us, like the pacstrap module used for the online install option. Additionally, some modules are modified to meet our specific requirements for setting up EndeavourOS.
 
 [EndeavourOS Calamares scripts and configuration](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos)
 
 Also, both online and offline installs use the same Calamares application.
-However, we use the welcome app and different `settings.conf` files to configure both install methods.
+However, we use the Welcome app and different `settings.conf` files to configure both installation methods.
 
 ## Dependencies:
 
 [Calamares Dependencies](https://github.com/endeavouros-team/calamares#readme)
-
-
