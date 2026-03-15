@@ -125,7 +125,7 @@ DEs are primarily configured to work properly by default, with only minimal chan
 
 2. Choose between the automatic partitioning option with presets or manual partitioning, where you can set up and mount partitions as you prefer. For manual partitioning, if you select systemd-boot, you need to set the ESP mount point to `/efi`. If you use GRUB as the bootloader, set the mount point to `/boot/efi`.
 
-3.##here add bootloader option info
+3. ##here add bootloader option info
 
 ![bootloader](https://github.com/endeavouros-team/EndeavourOS-Development/assets/16797647/120fc78b-4dfb-44a9-8fba-6ca064b87f57)
 
