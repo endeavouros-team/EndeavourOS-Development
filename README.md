@@ -17,7 +17,7 @@ EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework
 
 - **Minimal Customization** Our desktop environments come with a carefully selected set of packages to offer a basic, fully functional system. We apply only minimal aesthetic tweaks (e.g., accent colors, icon themes). There are no major modifications, optimizations, or rebuilt packages.
 
-- **No Handholding** EndeavourOS is very simple and close Archlinux. it does not aim to be a beginner-proof nor overly opinionated distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively. Added tools are minimal helpers to maintain the OS. 
+- **No Handholding** EndeavourOS is very simple and close Archlinux. it does not aim to be a beginner-proof nor overly opinionated distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively.
   We focus on providing easy-to-understand tutorials at [discovery.endeavouros.com](https://discovery.endeavouros.com).  
   At the core of EndeavourOS is our community — a place where users help each other in an open-minded and friendly way.  
   Join us on the [EndeavourOS Forum](https://forum.endeavouros.com) or in the [Telegram Help Chat](https://t.me/Endeavouros) to ask questions, share knowledge, and connect with others.
