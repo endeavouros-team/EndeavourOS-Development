@@ -56,7 +56,7 @@ We use the same base as Arch Linux for the ISO, but we implement a live desktop 
 
 The KDE Plasma live session provides a fully functional desktop environment with everything you need, including Firefox, a file browser, a media player, and various other tools for system tasks.
 
-We use our Welcome app to start the graphical installer, [Calamares](https://calamares.io/), where you can read the latest release information and learn more about EndeavourOS.
+We use our [Welcome app](https://github.com/endeavouros-team/welcome) to start the graphical installer, [Calamares](https://calamares.codeberg.page), where you can read the latest release information and learn more about EndeavourOS.
 
 You can start GParted, KDE Partition Manager (KPMcore), and a selection of rescue tools. You can choose between an offline install, which installs the same KDE Plasma Desktop as the live session, or a netinstall, where you can select the desktop environment you want. The netinstall option will perform an installation by downloading everything fresh from the internet.
 ![calamares installer kde galileo](https://raw.githubusercontent.com/endeavouros-team/EndeavourOS-Development/main/images/livesession-kde-galileo.png)
@@ -105,11 +105,11 @@ This method does not require an internet connection.
     
 * After installation is finished, the system detects the hardware used and removes any unnecessary drivers and virtual machine packages.
 
-The online method lets you choose your desktop environment, install printing support or accessibility tools, and remove individual packages from the list if desired.
+The online method let you choose your desktop environment, install printing support or accessibility tools, and remove individual packages from the list if desired.
 
-[Install-scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/scripts)
+here you will find the code for scripts and modules used: [Install-scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/)
 
-This method requires a working internet connection to proceed and will install the chosen DE "vanilla" (no theming or configuration on the DE itself), similar to how it would be installed on Arch Linux, but with a minimal selection of packages to get a base desktop to start making it your own.
+This method requires a working internet connection to proceed and will install the chosen DE ([Desktop Environment](https://en.wikipedia.org/wiki/Comparison_of_X_Window_System_desktop_environments)), similar to how it would be installed on Arch Linux, but with a minimal selection of packages to get a base desktop to start making it your own.
 
 The chosen DE includes deselectable groups for the EndeavourOS theming/fixes, allowing you to install it without our changes.
 
@@ -122,6 +122,7 @@ DEs are primarily configured to work properly by default, with only minimal chan
 **Installer Options**
 1. You can select between systemd-boot (the default selected option) and GRUB, or opt not to install a bootloader if you prefer to use your own.
 2. Choose between the automatic partitioning option with presets or manual partitioning, where you can set up and mount partitions as you prefer. For manual partitioning, if you select systemd-boot, you need to set the ESP mount point to `/efi`. If you use GRUB as the bootloader, set the mount point to `/boot/efi`.
+##here add bootloader option info
 
 ![bootloader](https://github.com/endeavouros-team/EndeavourOS-Development/assets/16797647/120fc78b-4dfb-44a9-8fba-6ca064b87f57)
 
