@@ -73,6 +73,8 @@ Changes we need to implement to the squashfs-image are made with this:
 
 [run_before_squashfs.sh](https://github.com/endeavouros-team/EndeavourOS-ISO/blob/main/run_before_squashfs.sh)
 
+here you will find the code for scripts and modules used: [calamares modules and scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/)
+
 Our magic cleaner scripts doing some magic we need to get everything working as we want:
 
 [cleaner_script.sh](https://github.com/endeavouros-team/calamares/blob/calamares/data/eos/scripts/cleaner_script.sh)
@@ -106,8 +108,6 @@ This method does not require an internet connection.
 * After installation is finished, the system detects the hardware used and removes any unnecessary drivers and virtual machine packages.
 
 The online method let you choose your desktop environment, install printing support or accessibility tools, and remove individual packages from the list if desired.
-
-here you will find the code for scripts and modules used: [Install-scripts](https://github.com/endeavouros-team/calamares/tree/calamares/data/eos/)
 
 This method requires a working internet connection to proceed and will install the chosen DE ([Desktop Environment](https://en.wikipedia.org/wiki/Comparison_of_X_Window_System_desktop_environments)), similar to how it would be installed on Arch Linux, but with a minimal selection of packages to get a base desktop to start making it your own.
 
