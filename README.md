@@ -14,7 +14,9 @@ EndeavourOS provides a bootable Live ISO using the Calamares Installer Framework
 - **Dracut over mkinitcpio** EndeavourOS uses [dracut](https://github.com/endeavouros-team/PKGBUILDS/tree/master/eos-dracut) instead of `mkinitcpio` for initramfs generation. This is one of the most important differences to be aware of.
 
 - **Easy Installation** We provide a simple GUI-based installer that sets up a minimal yet functional desktop environment using unmodified Arch Linux packages. This gives you a solid foundation, ready to be customized to suit your personal needs.
-
+ 
+- **Installer Options**
+1. You can select between systemd-boot (the default selected option) and GRUB, or option to not install a bootloader for manually adding it later if you prefer to use your own.
 - **Minimal Customization** Our desktop environments come with a carefully selected set of packages to offer a basic, fully functional system. We apply only minimal aesthetic tweaks (e.g., accent colors, icon themes). There are no major modifications, optimizations, or rebuilt packages.
 
 - **No Handholding** EndeavourOS is very simple and close Archlinux. it does not aim to be a beginner-proof, noran overly opinionated distribution. It embraces the Arch philosophy of giving you full control. Terminal usage is often required to manage and maintain the system effectively.
@@ -121,11 +123,9 @@ DEs are primarily configured to work properly by default, with only minimal chan
 
 **Installer Options**
 
-1. You can select between systemd-boot (the default selected option) and GRUB, or opt not to install a bootloader if you prefer to use your own.
+1. You can select between systemd-boot (the default selected option) and GRUB, or optionally not to install a bootloader if you prefer to use your own.
 
 2. Choose between the automatic partitioning option with presets or manual partitioning, where you can set up and mount partitions as you prefer. For manual partitioning, if you select systemd-boot, you need to set the ESP mount point to `/efi`. If you use GRUB as the bootloader, set the mount point to `/boot/efi`.
-
-3. ##here add bootloader option info
 
 ![bootloader](https://github.com/endeavouros-team/EndeavourOS-Development/assets/16797647/120fc78b-4dfb-44a9-8fba-6ca064b87f57)
 
